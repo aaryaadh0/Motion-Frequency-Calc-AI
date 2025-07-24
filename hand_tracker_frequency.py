@@ -93,7 +93,7 @@ def update(frame):
         cv2.putText(img, f'Hand {i+1} Freq: {freq:.2f} Hz', (30, 50 + i*40),
                     cv2.FONT_HERSHEY_SIMPLEX, 1, (0, 255, 0), 2)
 
-    cv2.imshow("Webcam Feed", img)
+    cv2.imshow("Webcam Feed !!!", img)
 
     # MLP numeric prediction
     score = mlp_predict_numeric(frequencies[0], frequencies[1])
